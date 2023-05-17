@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form 2</title>
+        <link rel="stylesheet" href="f1.css">
+    </head>
+    <body>
+      <form method="get" action="">
+        <fieldset>
+            <legend>Your Details</legend>
+            <label>Name:<input type="text" name="name"></label><br>
+            <label>Email:<input type="email" name="email"></label><br>
+          </fieldset><br>
+          <fieldset>
+            <legend>Your review</legend><br>
+            <p>
+                <label>How did you hear about us?<br>
+                <select name="about" size="3">
+                    <option value="google">Google</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="twitter">Twitter</option>
+                </select>
+            </label>
+        </p>
+            
+            <p>
+                <label>Would you visit again?<br><input type="radio" name="visitAgain" value="yes">Yes
+                <input type="radio" name="visitAgain" value="no">No
+                <input type="radio" name="visitAgain" value="maybe">Maybe
+            </label>
+        </p>
+            
+    
+            <p>Comments:</p>
+            <input type="textarea" id="tarea" name="comments"><br>
+            <p><input type="checkbox" checked name="sign-up" >Sign me up for email updates</p>
+            <input type="submit" value="Submit review" id="submit">
+          </fieldset>
+      </form>
+    </body>
+</html>

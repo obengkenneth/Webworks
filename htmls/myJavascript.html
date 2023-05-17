@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Javascript</title>
+        <style>
+            #button {
+                position: relative;
+                left: 50%;
+                width: 90px;
+                height: 100px;
+                box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="button">Click me!</button>
+        <p>Hello</p>
+        <script>
+           let b = document.querySelector("#button");
+           let p = document.querySelector("p").innerHTML;
+           b.addEventListener("click", (p) => {p="Hello, Ken"});
+        </script>
+    </body>
+</html>

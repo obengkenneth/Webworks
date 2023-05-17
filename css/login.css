@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(15, 15, 56);
+}
+
+
+
+div{
+    max-width: 40%;
+    max-height: 90vh;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+#password, #email{
+    width:90%;
+    height: 30px;
+    margin:0 5% 0 5%;
+    border-radius: 5px;
+    border: solid rgb(177, 172, 172);
+}
+
+.label{
+    margin-left: 25px;
+}
+
+#submit{
+    background-color: rgb(75, 184, 75);
+    color:white;
+    border: solid white;
+    width: 80%;
+    margin:0 10% 20px 10%;
+    border-radius: 5px;
+    height: 40px;
+}
+
+p{
+    text-align: center;
+    color:white;
+}

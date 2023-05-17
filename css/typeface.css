@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 300%;  */
+}
+
+header, nav, article, footer {
+    border: 1px solid black;
+}
+li {
+    display: inline;
+}
